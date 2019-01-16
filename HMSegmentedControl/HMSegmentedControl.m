@@ -20,7 +20,7 @@
 @property (nonatomic, strong) CALayer *selectionIndicatorArrowLayer;
 @property (nonatomic, readwrite) CGFloat segmentWidth;
 @property (nonatomic, readwrite) NSArray<NSNumber *> *segmentWidthsArray;
-@property (nonatomic, strong) HMScrollView *scrollView;
+@property (nonatomic, strong, readwrite) HMScrollView *scrollView;
 
 @end
 
