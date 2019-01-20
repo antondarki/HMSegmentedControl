@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@interface HMScrollView : UIScrollView
+@end
+
 @class HMSegmentedControl;
-@class HMScrollView;
 
 typedef void (^IndexChangeBlock)(NSInteger index);
 typedef NSAttributedString *(^HMTitleFormatterBlock)(HMSegmentedControl *segmentedControl, NSString *title, NSUInteger index, BOOL selected);
